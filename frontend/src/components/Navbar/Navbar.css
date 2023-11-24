@@ -8,10 +8,10 @@
 
 :root {
     --bs-dark-color: #1a1d20;
-    --bs-dar-primary: #00070e;
-    --bs-main-color: #f6fbff;
-    --bs-primary-color: #d0eaf7;
-    --secondary-color: #0080ff;
+    --bs-dar-primary: #000e02;
+    --bs-main-color: #620f8c;
+    --bs-primary-color: #0f6f47;
+    --secondary-color: #26d20c;
     --bs-supporting-color: #fb0193;
 }
 
@@ -36,7 +36,7 @@ a {
 }
 
 .navbar {
-    background-color: var(--secondary-color);
+    background-color:#16e9c9;
     font-size: larger;
     height: 70px;
 }

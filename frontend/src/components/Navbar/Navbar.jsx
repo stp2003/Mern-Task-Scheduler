@@ -7,7 +7,7 @@ const Navbar = () => {
 
   const [isAuthenticated, setIsAuthenticated] = useState(false);
   const checkToken = () => {
-    
+
     const token = localStorage.getItem('token');
     console.log(isAuthenticated)
     if (token !== null) {
@@ -29,7 +29,7 @@ const Navbar = () => {
     <nav className="navbar navbar-expand-lg py-3 pt-lg-3 fixed-top">
       <div className="container d-flex">
         <Link className="navbar-brand" to="/">
-         <h4><b> Task Tracker</b></h4>
+          <h4><b> Task Scheduler</b></h4>
         </Link>
         <button
           className="navbar-toggler"
@@ -50,9 +50,7 @@ const Navbar = () => {
               </Link>
             </li>
             <li className="nav-item">
-              <Link className="nav-link" to="/About">
-                About
-              </Link>
+
             </li>
             {isAuthenticated && (
               <>

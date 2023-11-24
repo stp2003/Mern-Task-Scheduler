@@ -85,16 +85,16 @@ const TodoList = () => {
     const today = new Date().toDateString();
     const incompleteTasks = Array.isArray(taskList)
       ? taskList.filter((task) => {
-          const taskDate = new Date(task.date).toDateString();
-          return task.status === 'Incomplete' && taskDate === today;
-        })
+        const taskDate = new Date(task.date).toDateString();
+        return task.status === 'Incomplete' && taskDate === today;
+      })
       : [];
 
     const deleteTaskToday = async (task) => {
       await axios.post(`http://localhost:4000/task/deleteTask/${email}`, incompleteTasks[task]);
     };
 
-    if(incompleteTasks.length > 0 && notify){
+    if (incompleteTasks.length > 0 && notify) {
       setNotify(false);
       toast.info('Looks like you have some tasks left for today!', {
         position: 'top-right',

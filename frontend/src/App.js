@@ -19,8 +19,8 @@ function App() {
         <Routes>
           <Route exact path="/"
             element={<Home/>}/>
-          <Route path="/About"
-            element={<About/>}/>
+          {/* <Route path="/About"
+            element={<About/>}/> */}
           <Route path="/Todo"
             element={<TodoList/>}/>
           <Route path="/Loginsignup"
