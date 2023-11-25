@@ -32,7 +32,7 @@ const Home = () => {
               </p>
               <div class="text-center w-100 text-md-start">
                 <button class="text-uppercase btn btn-primary px-5 py-3" data-bs-toggle="tooltip"l̥
-                  title="Make Todo-List" onClick={() => navigate('/Todo')}>Todo</button>
+                  title="Make Todo-List" onClick={() => navigate('/Todo')}>Task</button>
               </div>
             </div>
 

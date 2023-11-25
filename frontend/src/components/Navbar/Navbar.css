@@ -7,8 +7,8 @@
 }
 
 :root {
-    --bs-dark-color: #1a1d20;
-    --bs-dar-primary: #000e02;
+    --bs-dark-color: #dfe5ea;
+    --bs-dar-primary: #e5eee6;
     --bs-main-color: #620f8c;
     --bs-primary-color: #0f6f47;
     --secondary-color: #26d20c;
@@ -30,13 +30,14 @@ a {
     word-spacing: .1rem;
 }
 
-.navbar-brand {
+/* .navbar-brand {
     color: var(--bs-dar-primary);
     
-}
+} */
+
 
 .navbar {
-    background-color:#16e9c9;
+    background-color:#311c46;
     font-size: larger;
     height: 70px;
 }
@@ -46,11 +47,11 @@ a {
 }
 
 .nav-link {
-    color: var(--bs-main-color);
+    color: white;
 }
 
 .nav-link:hover {
-    color: var(--bs-dar-primary);
+    color: yellow;
 }
 
 /* Override hover color for Task Tracker */

@@ -11,7 +11,7 @@
 .header {
   height: 200px;
   width: 100%;
-  background-color: white;
+  background-color: #0c0420;
   padding-top: 120px;
   align-items: center;
 }
@@ -24,12 +24,14 @@
 
 .heading4 {
   padding-top: 30px;
+  color: #fff;
 }
 
 .task {
   margin: 30px;
   display: flex;
   padding-bottom: 20px;
+  color: #fff;
 }
 
 .heading h3 {
@@ -38,6 +40,7 @@
   margin-bottom: 60px;
   font-weight: 600;
   position: relative;
+  color: #fff;
 }
 
 .heading h3::after {
@@ -47,6 +50,7 @@
   height: 5px;
   bottom: -5px;
   left: 50%;
+  color: #fff;
   position: absolute;
   transform: translateX(-50%);
 

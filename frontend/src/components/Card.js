@@ -7,11 +7,11 @@ const Card = ({ taskObj, index, deleteTask, updateListArray }) => {
   const [modal, setModal] = useState(false);
 
   const colors = [
-    { primaryColor: "#5D93E1", secondaryColor: "#ECF3FC" },
-    { primaryColor: "#F9D288", secondaryColor: "#FEFAF1" },
-    { primaryColor: "#5DC250", secondaryColor: "#F2FAF1" },
-    { primaryColor: "#F48687", secondaryColor: "#FDF1F1" },
-    { primaryColor: "#B964F7", secondaryColor: "#F3F0FD" },
+    { primaryColor: "#5D93E1", secondaryColor: "#7e31ca" },
+    { primaryColor: "#F9D288", secondaryColor: "#7e31ca" },
+    { primaryColor: "#5DC250", secondaryColor: "#7e31ca" },
+    { primaryColor: "#F48687", secondaryColor: "#7e31ca" },
+    { primaryColor: "#B964F7", secondaryColor: "#7e31ca" },
   ];
 
   const toggle = () => {
@@ -49,7 +49,7 @@ const Card = ({ taskObj, index, deleteTask, updateListArray }) => {
           >
             {taskObj.taskname}
           </span>
-          
+
         </div>
         <p className="mt-3">{taskObj.description}</p>
 

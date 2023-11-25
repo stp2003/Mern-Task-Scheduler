@@ -1,8 +1,6 @@
-
-
 body {
   font-family: 'Arial', sans-serif;
-  background-color: #f4f4f4;
+  background-color: #0c0420;
   margin: 0;
   padding: 0;
 }
@@ -10,18 +8,18 @@ body {
 .usercontainer {
   max-width: 800px;
   margin: 50px auto;
-  background-color: #fff;
+  background-color: #373042;
   border-radius: 8px;
   padding: 20px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 h2 {
-  color: #333;
+  color: #fff;
 }
 
 p {
-  color: #555;
+  color: #fff;
 }
 
 
@@ -48,6 +46,5 @@ p {
 
 .edit-profile-link:hover,
 .logout-button:hover {
-  background-color: #2980b9;
+  background-color: turquoise;
 }
-

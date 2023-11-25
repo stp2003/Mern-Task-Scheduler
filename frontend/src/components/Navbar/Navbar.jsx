@@ -56,7 +56,7 @@ const Navbar = () => {
               <>
                 <li className="nav-item">
                   <Link className="nav-link" to="/Todo">
-                    Todo
+                    Task
                   </Link>
                 </li>
                 <li className="nav-item">
