@@ -1,5 +1,8 @@
 # Mern-Task-Scheduler
 
+<a href="https://merntaskscheduler.netlify.app/" target="_blank">Demo</a>
+<br>
+
 To run this first 
 ```
    cd backend
@@ -11,6 +14,3 @@ Then
 cd frontend
 npm start
 ```
-
-
-https://merntaskscheduler.netlify.app/
