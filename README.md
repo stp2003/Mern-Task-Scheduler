@@ -1,6 +1,6 @@
 # Mern-Task-Scheduler
 
-To run this first
+To run this first 
 ```
    cd backend
    node index.js
