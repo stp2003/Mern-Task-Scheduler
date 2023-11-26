@@ -3,7 +3,7 @@
 <a href="https://merntaskscheduler.netlify.app/" target="_blank">Demo</a>
 <br>
 
-To run this first 
+To run this first
 ```
    cd backend
    node index.js
